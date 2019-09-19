@@ -9,7 +9,9 @@ import {AppModule} from 'app/app.module';
 @Injectable({ providedIn: 'root' })
 export class AuthServerProvider {
 
-  constructor(private http: HttpClient, private $localStorage: LocalStorageService, private $sessionStorage: SessionStorageService) {}
+  constructor(private http: HttpClient, private $localStorage: LocalStorageService, private $sessionStorage: SessionStorageService) {
+      window.console.info('%cThis app uses JWT authentication library by https://github.com/admtrine/jwtsimple', 'color: blue; font-weight: 1000');
+  }
 
   getToken() {
     return this.$localStorage.retrieve('authenticationToken') || this.$sessionStorage.retrieve('authenticationToken');
