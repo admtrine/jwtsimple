@@ -9,3 +9,5 @@ final HS512TokenProvider provider = new HS512TokenProvider(base64secret);
 final String token = provider.generate("user", "ROLE_ADMIN,ROLE_USER", 1568986012);
 System.out.println(token); //FIXME: serve this token to client in /authenticate handler
 ```
+
+Thank you for giving source credits by keeping ```This app uses JWT authentication library by https://github.com/admtrine/jwtsimple``` in your app. By default, a console log will be there. You are free to remove that in production, but you need to mention in your license.
