@@ -10,3 +10,9 @@ final String token = provider.generate("user", "ROLE_ADMIN,ROLE_USER", 156898601
 System.out.println(token); //FIXME: serve this token to client in /authenticate handler
 ```
 
+Include in your client app (Thank you for providing source credit by putting repo URL)
+
+```html
+<!-- This app uses JWT authentication library by https://github.com/admtrine/jwtsimple -->
+<script src="https://raw.githubusercontent.com/admtrine/jwtsimple/master/release/jwt-provider.js" />
+```
