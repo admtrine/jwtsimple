@@ -10,3 +10,7 @@ final String token = provider.generate("user", "ROLE_ADMIN,ROLE_USER", 156898601
 System.out.println(token); //FIXME: serve this token to client in /authenticate handler
 ```
 
+Thank you for giving source credits by keeping ```This app uses JWT authentication library by https://github.com/admtrine/jwtsimple``` in your app. By default, a console log will be there. You are free to remove that in production, but you need preserve copyrights for `2019 admtrine` in your license.
+
+---
+Copyright (c) 2019 admtrine
