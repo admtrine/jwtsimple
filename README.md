@@ -13,11 +13,12 @@ System.out.println(token); //FIXME: serve this token to client in /authenticate 
 ```
 
 
-If you wish to play more with JWT algorithm,    
+If you wish to play more with JWT algorithms,    
 [![View on JWT.IO](http://jwt.io/img/badge.svg)](https://jwt.io)
 
 
-Thank you for giving source credits by keeping ```This app uses JWT authentication library by https://github.com/admtrine/jwtsimple``` in your app. By default, a console log will be there. You are free to remove that in production, but you need preserve copyrights for `2019 admtrine` in your license.
+Thank you for giving source credits by keeping credit line,    
+```This app uses JWT authentication library by https://github.com/admtrine/jwtsimple``` in your app. By default, a console log will be there. You are free to remove that in production, but you need preserve copyrights for `2019 admtrine` in your license.
 
 ---
 Copyright (c) 2019 admtrine.
