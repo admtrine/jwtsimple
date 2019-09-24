@@ -26,4 +26,4 @@ Copyright (c) 2019 admtrine.
 > This repository is related with a CFT competition. **Don't use this library for development.**    
 > FYI: Good practice to explore third party libraries and CVEs. https://www.exploit-db.com/ is one of good website to see latest secutiry vulnarabilities.    
 > ^thes3c0nd2$    
-> Hint: It is not supported application wide due to obvious reasons. There is a special place to use it. You'll find it. Go ahead with enumeration.
+> Hint: **It** is not supported application wide due to obvious reasons. There is a special place to use **it**. You'll find it. Go ahead with enumeration.
