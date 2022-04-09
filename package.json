@@ -16,7 +16,7 @@
     "@ngx-translate/core": "11.0.1",
     "@ngx-translate/http-loader": "4.0.0",
     "core-js": "3.2.1",
-    "moment": "2.24.0",
+    "moment": "2.29.2",
     "ngx-webstorage": "4.0.1",
     "rxjs": "6.5.2"
   },
